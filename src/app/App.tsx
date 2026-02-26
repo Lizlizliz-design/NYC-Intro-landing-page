@@ -94,6 +94,14 @@ export default function App() {
         </div>
       </section>
 
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-400 py-6 text-center text-sm">
+        <p>
+          &copy; {new Date().getFullYear()} NYC Intro.{" "}
+          <a href="/privacy-policy" className="underline hover:text-white">Privacy Policy</a>
+        </p>
+      </footer>
+
       {/* Attractions Section */}
       <div className="bg-gray-50 py-16">
         <div className="max-w-6xl mx-auto px-4">
